@@ -15,7 +15,7 @@
 <body>
     <nav></nav>
     <div id="main">
-        
+        <p>Page under construction...</p>
     </div>
 </body>
 </html>
