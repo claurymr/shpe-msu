@@ -1,0 +1,23 @@
+body {
+    font-family: Tahoma, sans-serif;
+    font-size: 1em;
+    background-color: #ffffff;
+}
+
+#main {
+    width: 100%;
+    margin: 0 auto;
+    margin-top: 0;
+}
+
+header {
+    height: 23em;
+    background-color: aquamarine;
+}
+
+.inner-container {
+    width: 90%;
+    height: inherit;
+    margin: 0 auto;
+    background-color: green;
+}
