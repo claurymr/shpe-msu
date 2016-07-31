@@ -13,12 +13,10 @@
     <title>SHPE|MSU</title>
 </head>
 <body>
-    <nav></nav>
     <div id="main">
-        <div id="=header">
-            <header></header>
+        <header>
             <nav></nav>
-        </div>
+        </header>
         <div id="mission-vision">
 
         </div>
@@ -36,7 +34,7 @@
             </div>
 
         </div>
-        <div id="footer">
+        <footer>
 
             <div id="sponsors">
 
@@ -55,7 +53,7 @@
 
             </div>
 
-        </div>
+        </footer>
     </div>
 </body>
 </html>
