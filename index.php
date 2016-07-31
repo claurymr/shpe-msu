@@ -11,11 +11,19 @@
 <html>
 <head>
     <title>SHPE|MSU</title>
+    <link rel="stylesheet" type="text/css" href="css/normalize.css">
+    <link rel="stylesheet" type="text/css" href="css/uikit.min.css">
+    <link rel="stylesheet" type="text/css" href="css/main.css">
 </head>
 <body>
     <div id="main">
         <header>
-            <nav></nav>
+            <div class="inner-container">
+                <div class="master-head">
+                    
+                </div>
+                <nav></nav>
+            </div>
         </header>
         <div id="mission-vision">
 
@@ -55,5 +63,6 @@
 
         </footer>
     </div>
+    <script type="text/javascript" src="js/uikit.min.js"></script>
 </body>
 </html>
