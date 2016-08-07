@@ -1,4 +1,4 @@
-<!--<!doctype html>
+<!doctype html>
 <html>
 <head>
 <meta charset="utf-8">
@@ -9,7 +9,7 @@
 
 <body>
 
-</body>-->
+</body>
 
 <footer>
 
@@ -33,24 +33,23 @@
     	<div id="link_text">
         
             <div id="Column_1">
-                <h3>Join Now</h3>
-                <h3>Scholarships</h3>
-                <h3>Regional SHPE</h3>
+                <a href="https://www.shpeconnect.org/eweb/DynamicPage.aspx?WebCode=LoginRequired&expires=yes&Site=shpe"> <h3>Join Now </h3> </a>
+                <a href="http://www.shpe.org/scholarships"> <h3>Scholarships </h3> </a>
+                <a href="https://www.facebook.com/groups/SHPERegion6/"> <h3>Regional SHPE </h3> </a>
             </div>
             
             <div id="Column_2">
-                <h3>National SHPE</h3>
-                <h3>SHPE Foundation</h3>
-                <h3>SHPE Detroit</h3>
+                <a href="http://www.shpe.org/"> <h3>National SHPE </h3> </a>
+                <a href="http://shpedetroit.wix.com/detroit"> <h3>SHPE Detroit </h3> </a>
             </div>
             
         </div>
             
         <div id="Social_Media">
                      
-            <a href="index.html"><img src="https://christiannarvios.files.wordpress.com/2016/07/black_fb.png" onmouseover="this.src='https://christiannarvios.files.wordpress.com/2016/07/facebook-e1470009019796.png'" onmouseout="this.src='https://christiannarvios.files.wordpress.com/2016/07/black_fb.png'" alt="Facebook logo to our SHPE page" class="Facebook"/></a>
+            <a href="https://www.facebook.com/SHPEMSU/?fref=ts"> <img src="https://christiannarvios.files.wordpress.com/2016/07/black_fb.png" onmouseover="this.src='https://christiannarvios.files.wordpress.com/2016/07/facebook-e1470009019796.png'" onmouseout="this.src='https://christiannarvios.files.wordpress.com/2016/07/black_fb.png'" alt="Facebook logo to our SHPE page" class="Facebook"/></a>
             
-            <a href="index.html"><img src="https://christiannarvios.files.wordpress.com/2016/07/white_instagram.png" onmouseover="this.src='https://christiannarvios.files.wordpress.com/2016/07/instagram-logo1.png'" onmouseout="this.src='https://christiannarvios.files.wordpress.com/2016/07/white_instagram.png'" alt="Instagram link to our SHPE Page." class="Instagram"/></a>
+            <a href="https://www.instagram.com/shpeatmsu/?hl=en"> <img src="https://christiannarvios.files.wordpress.com/2016/07/white_instagram.png" onmouseover="this.src='https://christiannarvios.files.wordpress.com/2016/07/instagram-logo1.png'" onmouseout="this.src='https://christiannarvios.files.wordpress.com/2016/07/white_instagram.png'" alt="Instagram link to our SHPE Page." class="Instagram"/></a>
                   
         </div>
                       
@@ -63,4 +62,4 @@
                     
 </footer>
 
-<!--</html>-->
+</html>
