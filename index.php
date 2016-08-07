@@ -14,12 +14,14 @@
     <link rel="stylesheet" type="text/css" href="css/normalize.css">
     <link rel="stylesheet" type="text/css" href="css/uikit.min.css">
     <link rel="stylesheet" type="text/css" href="css/main.css">
+    <link href="Footer/footer_class.css" rel="stylesheet" type="text/css">
+    <link href="Footer/Sponsors.css" rel="stylesheet" type="text/css">
     <link rel="stylesheet" type="text/css" href="css/media-queries.css">
 </head>
 <body>
     <div id="main">
         <?php include "header.php" ?>
-        <div id="banner"">
+        <div id="banner">
             <div id="image-banner"></div>
             <div id="mission-vision">
                 <div class="inner-container">
@@ -66,40 +68,54 @@
             </div>
         </div>
         <div id="events">
-            <div class="inner-container uk-grid">
-                <div class="uk-width-1-3">
-                    <div id="upcoming-events">
-
+            <div class="inner-container">
+                <div class="uk-grid">
+                    <div class="uk-width-2-5">
+                        <div id="upcoming-events">
+                            <h2>Upcoming Events</h2>
+                            <div class="event">
+                                <div class="calendar">
+                                    <div class="date">13</div>
+                                    <div class="month">August</div>
+                                </div>
+                                <div class="event-info">
+                                    <p>SHPE Pool Party</p>
+                                    <p>Hosted by SHPE MSU</p>
+                                </div>
+                            </div>
+                            <div class="event">
+                                <div class="calendar">
+                                    <div class="date">13</div>
+                                    <div class="month">August</div>
+                                </div>
+                                <div class="event-info">
+                                    <p>SHPE Pool Party</p>
+                                    <p>Hosted by SHPE MSU</p>
+                                </div>
+                            </div>
+                            <div class="event">
+                                <div class="calendar">
+                                    <div class="date">13</div>
+                                    <div class="month">August</div>
+                                </div>
+                                <div class="event-info">
+                                    <p>SHPE Pool Party</p>
+                                    <p>Hosted by SHPE MSU</p>
+                                </div>
+                            </div>
+                        </div>
                     </div>
-                </div>
-                <div class="uk-width-2-3">
-                    <div id="event-of-week">
-
+                    <div class="uk-width-3-5">
+                        <div id="event-of-week">
+                            <h2>Event of the Week</h2>
+                        </div>
                     </div>
                 </div>
             </div>
         </div>
-        <footer>
-
-            <div id="sponsors">
-
-            </div>
-
-            <div id="external-links">
-                <div id="links">
-
-                </div>
-                <div id="social">
-
-                </div>
-            </div>
-
-            <div id="copyright">
-
-            </div>
-
-        </footer>
+        <?php include "Footer/footer.php" ?>
     </div>
+    <script type="text/javascript" src="js/uikit.min.js"></script>
     <script type="text/javascript" src="js/uikit.min.js"></script>
 </body>
 </html>

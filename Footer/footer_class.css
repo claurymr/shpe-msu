@@ -9,6 +9,10 @@
 	clear: both;
 }
 
+#link_text h3 {
+	color: #fff;
+}
+
 #Column_1 {
 	float: left;
 }

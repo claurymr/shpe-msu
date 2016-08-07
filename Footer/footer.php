@@ -1,4 +1,4 @@
-<!doctype html>
+<!--<!doctype html>
 <html>
 <head>
 <meta charset="utf-8">
@@ -9,11 +9,11 @@
 
 <body>
 
-</body>
+</body>-->
 
 <footer>
 
-	<div id="Divsion">
+	<div id="Division">
     
             <h2> Sponsored by: </h2>
             
@@ -63,4 +63,4 @@
                     
 </footer>
 
-</html>
+<!--</html>-->
