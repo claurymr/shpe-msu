@@ -1,0 +1,149 @@
+@charset "utf-8";
+
+#link_text {
+	background-color: #909AB7;
+	color: #ffffff;
+	padding: 1.5em;
+	height: 8em;
+	padding-bottom: 0;
+	clear: both;
+}
+
+#Column_1 {
+	float: left;
+}
+
+#Column_2 {
+	float: right;
+}
+
+#Social_Media {
+	background-color: #909AB7;
+	height: 5em;
+	padding: 1.5em;
+}
+
+#Social_Media img {
+	width: 5%;
+	float: right;
+	padding: 0.25em;
+}
+
+#Authors {
+	background-color: #909AB7;
+	color: #ffffff;
+	text-align: center;
+	padding-top: 0.001em;
+	padding-bottom: 0.001em;
+}
+
+@Media Screen and (Max-width: 400px) {
+	#link_text {
+		height: 20em;
+	}
+	
+	#Column_2 {
+		float: left;
+	}
+	
+	#Social_Media {
+		height: 8em;
+		clear: both;
+	}
+	
+	#Social_Media img {
+		float: left;
+		width: 20%;
+	}
+	
+	#Authors {
+		font-size: 9px;
+	}
+}
+
+
+
+/*
+.container {
+	text-align: center;
+	align-content:center;
+	min-height:: 100%;
+}
+
+.Footer {
+	color: #000000;
+	margin: 0px auto;
+}
+
+.Instagram {
+	padding: 15px;
+    margin: auto;
+	margin-top: 5em;
+	float: right;
+	right: 14%;
+	position: absolute;
+	z-index: 2;
+	bottom: 0;
+    width:  04%;
+    background-position: 70% 70%;
+
+}
+
+.Facebook {
+	padding: 15px;
+	margin: auto;
+	margin-top: 5em;
+	float: right;
+	right: 19%;
+	position: absolute;
+	z-index: 2;
+	bottom: 0;
+    width:  4%;
+    background-position: 50% 50%;
+
+}
+
+#Links {
+	background-color: #909AB7;
+	color: #ffffff;
+	margin: 17% auto; 
+	padding: 30px;
+	width: 100%;
+	-webkit-column-count: 2; 
+    -moz-column-count: 2; 
+    column-count: 2;
+	
+}
+
+.Copyright {
+	color: #ffffff;
+	background-color: #909AB7;
+	text-align: center;
+	width: 100%;
+}
+
+#Authors {
+	text-align: left;
+	width: 100%;
+	position: absolute; bottom: 0;
+	background-color: #909AB7;
+}
+
+#Column_1 {
+	text-align: left;
+	height: 8em;
+	width: 26%;
+	min-width: 100px;
+	max-width: 1000px;
+}
+
+
+#Column_2 {
+	text-align: right;
+	height: 8em;
+	width: 74%;
+	min-width: 100px;
+	max-width: 1000px;
+}
+
+*/

@@ -1,0 +1,21 @@
+#Divsion {
+	background-color: #909AB7;
+	width: 100%;
+	color: #ffffff;
+	text-align: center;
+}
+
+#Sponsors {
+	background-color: #ffffff;
+}
+
+#Sponsors img {
+	display: inline-block;
+	max-width: 24%;
+}
+
+@Media Screen and (Max-width: 400px) {
+	#Sponsors img {
+		display: block;
+	}
+}
