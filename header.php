@@ -17,11 +17,23 @@
             </div>
         </div>
         <nav>
-            <a href="index.php" class="selected">Home</a>
-            <a href="">About Us</a>
-            <a href="">MemberSHPE</a>
-            <a href="">SponsorSHPE</a>
-            <a href="">Contact</a>
+            <li><a href="index.php" class="selected">Home</a></li>
+            <li class="dropdown">
+                <a href="">About Us</a>
+                <nav class="sub-nav">
+                    <a href="">SHPE-Chapter</a>
+                    <a href="">Bylaws</a>
+                </nav>
+            </li>
+            <li class="dropdown">
+                <a href="">MemberSHPE</a>
+                <nav class="sub-nav">
+                    <a></a>
+                    <a></a>
+                </nav>
+            </li>
+            <li><a href="">SponsorSHPE</a></li>
+            <li><a href="">Contact</a></li>
         </nav>
     </div>
 </header>

@@ -11,6 +11,7 @@
 <html>
 <head>
     <title>SHPE|MSU</title>
+    <script type="text/javascript" src="js/jquery-3.1.0.min.js"></script>
     <link rel="stylesheet" type="text/css" href="css/normalize.css">
     <link rel="stylesheet" type="text/css" href="css/uikit.min.css">
     <link rel="stylesheet" type="text/css" href="css/main.css">
@@ -108,6 +109,9 @@
                     <div class="uk-width-3-5">
                         <div id="event-of-week">
                             <h2>Event of the Week</h2>
+                            <div class="">
+
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -115,7 +119,7 @@
         </div>
         <?php include "Footer/footer.php" ?>
     </div>
-    <script type="text/javascript" src="js/uikit.min.js"></script>
+
     <script type="text/javascript" src="js/uikit.min.js"></script>
 </body>
 </html>
