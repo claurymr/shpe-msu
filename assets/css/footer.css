@@ -1,5 +1,9 @@
 @charset "utf-8";
 
+footer {
+    background-color: #909AB7;
+}
+
 #link_text {
 	background-color: #909AB7;
 	color: #ffffff;
@@ -7,33 +11,39 @@
 	height: 8em;
 	padding-bottom: 0;
 	clear: both;
+    font-family: Tahoma, sans-serif;
+    font-style: normal;
 }
 
-#link_text h3 {
-	color: #fff;
-}
+    #link_text a {
+        display: block;
+        color: #ffffff;
+        padding-bottom: 1.5em;
+    }
 
-#Column_1 {
+#column_1 {
 	float: left;
 }
 
-#Column_2 {
+#column_2 {
 	float: right;
 }
 
-#Social_Media {
+#social_media {
 	background-color: #909AB7;
 	height: 5em;
 	padding: 1.5em;
 }
 
-#Social_Media img {
-	width: 5%;
-	float: right;
-	padding: 0.25em;
-}
+    #social_media img {
+        width: 5%;
+        float: right;
+        padding: 0.25em;
+    }
 
-#Authors {
+#authors {
+    font-family: "Palatino Linotype", sans-serif;
+    font-style: italic;
 	background-color: #909AB7;
 	color: #ffffff;
 	text-align: center;
@@ -41,26 +51,26 @@
 	padding-bottom: 0.001em;
 }
 
-@Media Screen and (Max-width: 400px) {
+@media screen and (max-width: 400px) {
 	#link_text {
 		height: 20em;
 	}
 	
-	#Column_2 {
+	#column_2 {
 		float: left;
 	}
 	
-	#Social_Media {
+	#social_media {
 		height: 8em;
 		clear: both;
 	}
 	
-	#Social_Media img {
+	#social_media img {
 		float: left;
 		width: 20%;
 	}
 	
-	#Authors {
+	#authors {
 		font-size: 9px;
 	}
 }

@@ -28,6 +28,10 @@ header {
         padding: 1em 0 1em 0;
     }
 
+    footer .inner-container {
+        padding: 1em 0 0 0;
+    }
+
 h1, h2, h3, h4, h5, h6 {
     font-family: "Palatino Linotype", sans-serif;
     font-style: italic;
@@ -83,13 +87,13 @@ nav {
 
     nav a:hover {
         color: #fff;
-        background-color: #006A3F;
+        background-color: rgba(0, 106, 63, 0.75);
         text-decoration: none;
     }
 
     nav a.selected {
         color: #fff;
-        background-color: #006A3F;
+        background-color: rgba(0, 106, 63, 0.75);
     }
 
     nav .sub-nav {
@@ -116,7 +120,7 @@ nav {
     }
 
 #banner {
-    background-image: url('../assets/img/msu-campus.jpg');
+    background-image: url('../img/msu-campus.jpg');
     background-color: transparent;
     background-position: center;
     background-size: cover;

@@ -11,13 +11,13 @@
 <html>
 <head>
     <title>SHPE|MSU</title>
-    <script type="text/javascript" src="js/jquery-3.1.0.min.js"></script>
-    <link rel="stylesheet" type="text/css" href="css/normalize.css">
-    <link rel="stylesheet" type="text/css" href="css/uikit.min.css">
-    <link rel="stylesheet" type="text/css" href="css/main.css">
-    <link href="Footer/footer_class.css" rel="stylesheet" type="text/css">
-    <link href="Footer/Sponsors.css" rel="stylesheet" type="text/css">
-    <link rel="stylesheet" type="text/css" href="css/media-queries.css">
+    <script type="text/javascript" src="assets/js/jquery-3.1.0.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="assets/css/normalize.css">
+    <link rel="stylesheet" type="text/css" href="assets/css/uikit.min.css">
+    <link rel="stylesheet" type="text/css" href="assets/css/main.css">
+    <link href="assets/css/footer.css" rel="stylesheet" type="text/css">
+    <link href="assets/css/sponsors.css" rel="stylesheet" type="text/css">
+    <link rel="stylesheet" type="text/css" href="assets/css/media-queries.css">
 </head>
 <body>
     <div id="main">
@@ -117,9 +117,9 @@
                 </div>
             </div>
         </div>
-        <?php include "Footer/footer.php" ?>
+        <?php include "footer.php" ?>
     </div>
 
-    <script type="text/javascript" src="js/uikit.min.js"></script>
+    <script type="text/javascript" src="assets/js/uikit.min.js"></script>
 </body>
 </html>
