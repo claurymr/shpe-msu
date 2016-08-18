@@ -43,7 +43,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
     .master-head img,
-    .master-head .society-name{
+    .master-head .society-name {
         display: inline-block;
     }
 
@@ -73,7 +73,7 @@ nav {
     position: relative;
     list-style: none;
 }
-    nav li{
+    nav li {
        display: inline-block;
     }
 
@@ -82,7 +82,6 @@ nav {
         font-size: 1.15em;
         text-decoration: none;
         color: #999999;
-
     }
 
     nav a:hover {
@@ -105,7 +104,7 @@ nav {
         width: 13em;
     }
 
-    nav .sub-nav a{
+    nav .sub-nav a {
         display: block;
         text-align: left;
     }
@@ -146,7 +145,7 @@ nav {
     color: #fff;
 }
 
-    #shpe-highlights h2{
+    #shpe-highlights h2 {
         color: #fff;
         margin-bottom: 1.5em;
     }
@@ -159,8 +158,29 @@ nav {
 
  .announcement {
      height: 20em;
-     background-color: #006A3F;
+     background-color: #fff;
  }
+
+ .announcement .ann-img {
+     height: 80%;
+     background-color: #1a1a1a;
+ }
+
+ .announcement p {
+     padding: 0 1em 1em 1em;
+ }
+
+.announcement p a {
+    color: #006A3F;
+    text-decoration: none;
+}
+
+.announcement p a:hover {
+    /*animation: toggle 0.75s ease;
+    -webkit-animation-fill-mode: forwards;
+    animation-fill-mode: forwards;*/
+    color: #999;
+}
 
 #events {
     background-color: #ffffff;
@@ -205,7 +225,5 @@ nav {
     .event-info p {
         margin: 0;
     }
-
-
 
 

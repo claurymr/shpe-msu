@@ -17,6 +17,7 @@
     <link rel="stylesheet" type="text/css" href="assets/css/main.css">
     <link href="assets/css/footer.css" rel="stylesheet" type="text/css">
     <link href="assets/css/sponsors.css" rel="stylesheet" type="text/css">
+    <link rel="stylesheet" type="text/css" href="assets/css/animation.css">
     <link rel="stylesheet" type="text/css" href="assets/css/media-queries.css">
 </head>
 <body>
@@ -44,24 +45,33 @@
                     <div class="uk-grid">
                         <div class="uk-width-1-3">
                             <div class="announcement">
-                                <p>ANNOUNCEMENT 1</p>
+                                <div class="ann-img"></div>
+                                <p><a href="#ann-modal" data-uk-modal>ANNOUNCEMENT 1</a></p>
+                                <div id="ann-modal" class="uk-modal">
+                                    <div class="uk-modal-dialog uk-modal-dialog-blank uk-height-viewport">
+                                        <a class="uk-modal-close uk-close" style="background-color: #006A3F;"></a>
+                                    </div>
+                                </div>
                             </div>
                         </div>
                         <div class="uk-width-2-3">
                             <div class="announcement">
-                                <p>ANNOUNCEMENT 2</p>
+                                <div class="ann-img"></div>
+                                <p><a>ANNOUNCEMENT 2</a></p>
                             </div>
                         </div>
                     </div>
                     <div class="uk-grid">
                         <div class="uk-width-2-3">
                             <div class="announcement">
-                                <p>ANNOUNCEMENT 3</p>
+                                <div class="ann-img"></div>
+                                <p><a>ANNOUNCEMENT 3</a></p>
                             </div>
                         </div>
                         <div class="uk-width-1-3">
                             <div class="announcement">
-                                <p>ANNOUNCEMENT 4</p>
+                                <div class="ann-img"></div>
+                                <p><a>ANNOUNCEMENT 4</a></p>
                             </div>
                         </div>
                     </div>

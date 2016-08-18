@@ -1,0 +1,11 @@
+@keyframes toggle {
+    0% {
+        background-color: #006A3F;
+        color: #fff;
+    }
+
+    50%, 100% {
+        background-color: #fff;
+        color: #999;
+    }
+}
