@@ -4,7 +4,7 @@ footer {
     background-color: #909AB7;
 }
 
-#link_text {
+#link-text {
 	background-color: #909AB7;
 	color: #ffffff;
 	padding: 1.5em;
@@ -15,27 +15,27 @@ footer {
     font-style: normal;
 }
 
-    #link_text a {
+    #link-text a {
         display: block;
         color: #ffffff;
         padding-bottom: 1.5em;
     }
 
-#column_1 {
+#column-1 {
 	float: left;
 }
 
-#column_2 {
+#column-2 {
 	float: right;
 }
 
-#social_media {
+#social-media {
 	background-color: #909AB7;
 	height: 5em;
 	padding: 1.5em;
 }
 
-    #social_media img {
+    #social-media img {
         width: 5%;
         float: right;
         padding: 0.25em;
@@ -52,20 +52,20 @@ footer {
 }
 
 @media screen and (max-width: 400px) {
-	#link_text {
+	#link-text {
 		height: 20em;
 	}
 	
-	#column_2 {
+	#column-2 {
 		float: left;
 	}
 	
-	#social_media {
+	#social-media {
 		height: 8em;
 		clear: both;
 	}
 	
-	#social_media img {
+	#social-media img {
 		float: left;
 		width: 20%;
 	}

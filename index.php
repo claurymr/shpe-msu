@@ -9,19 +9,7 @@
 
 <!Doctype html>
 <html>
-<head>
-    <title>SHPE|MSU</title>
-    <script type="text/javascript" src="assets/js/jquery-3.1.0.min.js"></script>
-    <link rel="stylesheet" type="text/css" href="assets/css/normalize.css">
-    <link rel="stylesheet" type="text/css" href="assets/css/uikit.min.css">
-    <link rel="stylesheet" type="text/css" href="assets/css/main.css">
-    <link href="assets/css/footer.css" rel="stylesheet" type="text/css">
-    <link href="assets/css/sponsors.css" rel="stylesheet" type="text/css">
-    <link rel="stylesheet" type="text/css" href="assets/css/animation.css">
-    <link rel="stylesheet" type="text/css" href="assets/css/media-queries.css">
-</head>
-<body>
-    <div id="main">
+
         <?php include "header.php" ?>
         <div id="banner">
             <div id="image-banner"></div>
@@ -46,10 +34,19 @@
                         <div class="uk-width-1-3">
                             <div class="announcement">
                                 <div class="ann-img"></div>
-                                <p><a href="#ann-modal" data-uk-modal>ANNOUNCEMENT 1</a></p>
-                                <div id="ann-modal" class="uk-modal">
+                                <p><a href="#ann-modal-1" data-uk-modal>ANNOUNCEMENT 1</a></p>
+                                <div id="ann-modal-1" class="uk-modal">
                                     <div class="uk-modal-dialog uk-modal-dialog-blank uk-height-viewport">
-                                        <a class="uk-modal-close uk-close" style="background-color: #006A3F;"></a>
+                                        <a class="uk-modal-close uk-close uk-close-alt"></a>
+                                        <div class="uk-grid uk-flex-middle" data-uk-grid-margin>
+                                            <div class="uk-width-medium-1-2 uk-height-viewport uk-cover-background uk-row-first" style="background-image: url('assets/img/shpe-logo.svg');"></div>
+                                            <div class="uk-width-medium-1-2">
+                                                <h1>Headline</h1>
+                                                <div class="uk-width-medium-1-2" style="color: #000;">
+                                                    <p>"Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."</p>
+                                                </div>
+                                            </div>
+                                        </div>
                                     </div>
                                 </div>
                             </div>
@@ -57,7 +54,21 @@
                         <div class="uk-width-2-3">
                             <div class="announcement">
                                 <div class="ann-img"></div>
-                                <p><a>ANNOUNCEMENT 2</a></p>
+                                <p><a href="#ann-modal-2" data-uk-modal>ANNOUNCEMENT 2</a></p>
+                                <div id="ann-modal-2" class="uk-modal">
+                                    <div class="uk-modal-dialog uk-modal-dialog-blank uk-height-viewport">
+                                        <a class="uk-modal-close uk-close uk-close-alt"></a>
+                                        <div class="uk-grid uk-flex-middle" data-uk-grid-margin>
+                                            <div class="uk-width-medium-1-2 uk-height-viewport uk-cover-background uk-row-first" style="background-image: url('assets/img/shpe-logo.svg');"></div>
+                                            <div class="uk-width-medium-1-2">
+                                                <h1>Headline</h1>
+                                                <div class="uk-width-medium-1-2" style="color: #000;">
+                                                    <p>"Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
                             </div>
                         </div>
                     </div>
@@ -65,13 +76,41 @@
                         <div class="uk-width-2-3">
                             <div class="announcement">
                                 <div class="ann-img"></div>
-                                <p><a>ANNOUNCEMENT 3</a></p>
+                                <p><a href="#ann-modal-3" data-uk-modal>ANNOUNCEMENT 3</a></p>
+                                <div id="ann-modal-3" class="uk-modal">
+                                    <div class="uk-modal-dialog uk-modal-dialog-blank uk-height-viewport">
+                                        <a class="uk-modal-close uk-close uk-close-alt"></a>
+                                        <div class="uk-grid uk-flex-middle" data-uk-grid-margin>
+                                            <div class="uk-width-medium-1-2 uk-height-viewport uk-cover-background uk-row-first" style="background-image: url('assets/img/shpe-logo.svg');"></div>
+                                            <div class="uk-width-medium-1-2">
+                                                <h1>Headline</h1>
+                                                <div class="uk-width-medium-1-2" style="color: #000;">
+                                                    <p>"Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
                             </div>
                         </div>
                         <div class="uk-width-1-3">
                             <div class="announcement">
                                 <div class="ann-img"></div>
-                                <p><a>ANNOUNCEMENT 4</a></p>
+                                <p><a href="#ann-modal-4" class="uk-button" data-uk-modal>ANNOUNCEMENT 4</a></p>
+                                <div id="ann-modal-4" class="uk-modal">
+                                    <div class="uk-modal-dialog uk-modal-dialog-blank uk-height-viewport">
+                                        <a class="uk-modal-close uk-close uk-close-alt"></a>
+                                        <div class="uk-grid uk-flex-middle" data-uk-grid-margin>
+                                            <div class="uk-width-medium-1-2 uk-height-viewport uk-cover-background uk-row-first" style="background-image: url('assets/img/shpe-logo.svg');"></div>
+                                            <div class="uk-width-medium-1-2">
+                                                <h1>Headline</h1>
+                                                <div class="uk-width-medium-1-2" style="color: #000;">
+                                                    <p>"Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
                             </div>
                         </div>
                     </div>
@@ -128,8 +167,4 @@
             </div>
         </div>
         <?php include "footer.php" ?>
-    </div>
-
-    <script type="text/javascript" src="assets/js/uikit.min.js"></script>
-</body>
 </html>

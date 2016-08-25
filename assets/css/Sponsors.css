@@ -1,0 +1,26 @@
+#division {
+	background-color: #909AB7;
+	width: 100%;
+	color: #ffffff;
+	text-align: center;
+	padding: 0.5em 0 0.01em;
+}
+
+#division h2 {
+	color: #fff;
+}
+
+#sponsors {
+	background-color: #ffffff;
+}
+
+#sponsors img {
+	display: inline-block;
+	max-width: 24%;
+}
+
+@media screen and (max-width: 400px) {
+	#sponsors img {
+		display: block;
+	}
+}

@@ -164,6 +164,8 @@ nav {
  .announcement .ann-img {
      height: 80%;
      background-color: #1a1a1a;
+     background-image: url('../img/shpe-logo.svg'); /*While I receive real pics*/
+     background-size: cover;
  }
 
  .announcement p {
@@ -225,5 +227,9 @@ nav {
     .event-info p {
         margin: 0;
     }
+
+.uk-close {
+    background-color: #006A3F;
+}
 
 
